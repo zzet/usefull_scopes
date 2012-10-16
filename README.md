@@ -8,15 +8,17 @@ Add this line to your application's Gemfile:
 
     gem 'usefull_scopes', :git => 'git://github.com/kaize/usefull_scopes.git'
 
-include UsefullScopes into your Model
-
-    include UsefullScopes
-
 And then execute:
 
     $ bundle
 
 ## Usage
+
+  include UsefullScopes into your Model
+
+    include UsefullScopes
+
+  Example:
 
     class YourModel < ActiveRecord::Base
 
